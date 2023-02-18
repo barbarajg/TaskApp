@@ -1,6 +1,6 @@
 import './App.css';
 import logo from './images/header.jpg';
-import TaskForm from './components/TaskForm.js'
+import TaskList from './components/TaskList.js'
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       </div>
       <div className='main-task-list-container'>
         <h1>My Tasks</h1>
-        <TaskForm />
+        <TaskList />
       </div>
     </div>
   );
