@@ -8,7 +8,7 @@ const TaskList = () => {
   const [tasks, setTasks] = useState([]);
 
   const addTask = (task) => {
-    if(TransformStream.text.trim()) {
+    if(task.text.trim()) {
       task.text = task.text.trim();
       const updatedTasks = [task, ...tasks];
       setTasks(updatedTasks);
