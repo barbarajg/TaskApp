@@ -4,3 +4,8 @@
   justify-content: center;
   margin-top: 15px;
 }
+
+#root > div > div.main-task-list-container > div {
+  display: flex;
+  justify-content: center;
+}
