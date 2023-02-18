@@ -1,5 +1,5 @@
 import './App.css';
-import logo from './images/header.jpg';
+import logo from './images/header.png';
 import TaskList from './components/TaskList.js'
 
 function App() {
