@@ -8,4 +8,6 @@
 #root > div > div.main-task-list-container > div {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
