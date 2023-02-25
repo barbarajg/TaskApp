@@ -4,7 +4,10 @@ import { AiOutlineCloseCircle } from 'react-icons/ai';
 
 const Task = ({ id, text, completed, completeTask, deleteTask }) => {
   return (
-       <div className={completed ? 'task-container completed' : 'task-container'}>
+       <div 
+        className={completed 
+          ? 'task-container completed' 
+          : 'task-container'}>
           <div 
             className='task-text'
             onClick={() => completeTask(id)}>

@@ -35,7 +35,7 @@ const TaskList = () => {
           <TaskForm onSubmit={addTask} />
           <div className='task-list-container'>
             {
-              tasks.map((task, index) => 
+              tasks.map((task) => 
                 <Task
                   key={task.id}
                   id={task.id}
